@@ -34,6 +34,18 @@ try {
       <p class="text-xl text-slate-300">Find your perfect companion from our wonderful selection of dogs looking for their forever homes.</p>
     </div>
 
+    <div class="mb-10 rounded-2xl border border-violet-500/30 bg-gradient-to-r from-slate-900 via-violet-950/60 to-slate-900 p-6 shadow-lg shadow-violet-900/20">
+      <div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+        <div>
+          <p class="text-sm uppercase tracking-[0.25em] text-violet-300">New demo</p>
+          <h2 class="mt-2 text-2xl font-bold text-white">Enter the abyssal dungeon</h2>
+        </div>
+        <a href="/dungeon" class="inline-flex items-center justify-center rounded-full bg-violet-500 px-5 py-3 font-semibold text-white transition hover:bg-violet-400">
+          Play the demo →
+        </a>
+      </div>
+    </div>
+
     {error ? (
       <div class="text-center py-12 bg-slate-800/50 backdrop-blur-sm rounded-xl border border-slate-700" data-testid="error-message">
         <p class="text-red-400">{error}</p>
